@@ -50,7 +50,7 @@ public class SwerveDriveBase extends SubsystemBase
    * <p>
    * This can be reduced to cap the robot's maximum speed. Typically, this is useful during initial testing of the robot.
    */
-  public static final double MAX_VOLTAGE = 12.0; //12.0;
+  public static final double MAX_VOLTAGE = 6.0; //12.0;
 
   //  Measure the drivetrain's maximum velocity or calculate the theoretical.
   //  The formula for calculating the theoretical maximum velocity is:
@@ -237,7 +237,7 @@ public class SwerveDriveBase extends SubsystemBase
     //setModulesToAbsolute();
 
     // Set starting position on field.
-    setOdometry(new Pose2d(1.03, 2.825, new Rotation2d(0)));
+    setOdometry(new Pose2d(2.094, 2.691, new Rotation2d(0)));
 
     // Initialze drive by issuing a no movement drive command.
     drive(0, 0, 0);
