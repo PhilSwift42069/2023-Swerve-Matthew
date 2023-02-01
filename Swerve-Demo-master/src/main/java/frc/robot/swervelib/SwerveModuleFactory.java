@@ -217,7 +217,7 @@ public class SwerveModuleFactory<DriveConfiguration, SteerConfiguration>
         {
             Util.consoleLog("%s", position);
     
-           driveController.getEncoder().setPosition(0);
+           //driveController.getEncoder().setPosition(0);
             steerController.getMotorEncoder().setPosition(0);
         }
 
