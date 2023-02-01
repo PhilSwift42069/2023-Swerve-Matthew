@@ -27,7 +27,7 @@ public class RobotContainer
 
   public final SwerveDriveBase m_driveBase = new SwerveDriveBase();
 
-  private final XboxController m_controller = new XboxController(0);
+  private final XboxController m_controller = new XboxController(1);
 
   /**
    * The container for the robot. Contains subsystems, OI devices, and commands.
